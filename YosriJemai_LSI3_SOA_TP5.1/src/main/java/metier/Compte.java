@@ -1,9 +1,9 @@
 package metier;
 
-
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlTransient;
 
 import java.util.Date;
 // Classe représentant un compte
@@ -13,6 +13,7 @@ import java.util.Date;
 public class Compte {
     private int code;
     private int solde;
+    @XmlTransient
     private Date dateCreation;
 
     public Compte() {}
