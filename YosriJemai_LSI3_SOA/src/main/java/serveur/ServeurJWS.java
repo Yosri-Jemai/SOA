@@ -13,7 +13,11 @@ public class ServeurJWS {
         String url ="http://localhost:8085/";
         Endpoint.publish(url, calculatrice);
 
-        System.out.println("Server url:"+ url);
+        System.out.println("Server url:"+ u
+
+
+
+                rl);
 
     }
 }
